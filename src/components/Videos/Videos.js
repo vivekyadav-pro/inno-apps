@@ -3,9 +3,7 @@ import Header from '../Header/Header'
 
 const Videos = () => {
     return (
-        <Header>
-            <h3>Videos</h3>
-        </Header>
+        <Header name='Videos' />
     )
 }
 

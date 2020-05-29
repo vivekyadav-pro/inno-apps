@@ -11,22 +11,19 @@ import Sessions from '../components/Sessions/Sessions'
 import Videos from '../components/Videos/Videos'
 import More from '../components/More/More'
 import Announcements from '../components/Announcements/Announcement'
+import Boxes from '../components/Announcements/Boxes/Boxes'
 
 export class Layout extends Component {
     render() {
         return (
             <div className="layout">
-                <Header>
-                    <Hamburger />
-                    <h2>Home</h2>
-                    <Link to="notifications"><Notification /></Link>
-                </Header>
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/sessions" exact component={Sessions} />
                     <Route path="/videos" exact component={Videos} />
                     <Route path="/more" exact component={More} />
                     <Route path="/notifications" exact component={Announcements} />
+                    <Route path="/announcements" exact component={Boxes} />
                 </Switch>
                 <Footer>
                     <NavItems />

@@ -7,7 +7,7 @@ import Items from './Item/Items'
 const NavItems = () => (
     <ul className="NavItems">
         <Items>
-            <NavLink to="/home" exact>Home</NavLink>
+            <NavLink to="/" exact>Home</NavLink>
         </Items>
         <Items>
             <NavLink to="/sessions">Sessions</NavLink>

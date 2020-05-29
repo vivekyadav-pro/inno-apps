@@ -3,9 +3,7 @@ import Header from '../Header/Header'
 
 const Sessions = () => {
     return (
-        <Header>
-            <h3>Sessions</h3>
-        </Header>
+        <Header name='Sessions' />
     )
 }
 
