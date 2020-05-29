@@ -1,0 +1,8 @@
+.layout {
+    flex: 1;
+}
+
+.layout .footerContent {
+    display: flex;
+    flex-direction: row;
+}
