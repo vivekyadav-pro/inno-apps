@@ -1,8 +1,7 @@
 import React from 'react'
-import {Link, Route, Switch} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 import Banner from '../Banner/Banner'
-import Boxes from './Boxes/Boxes'
 import './Announcements.css'
 
 const Announcement = () => {
@@ -11,8 +10,6 @@ const Announcement = () => {
             <Banner>
                 <h3>New Announcements</h3>
             </Banner>
-            <Switch>
-                
                 <div className="card">
                     <p>We will be closed on the coming Monday due to Govt orders</p>
                     <div className="date">
@@ -20,9 +17,6 @@ const Announcement = () => {
                     </div>
                     <Link to="/announcements"><button>Show all</button></Link>
                 </div>
-
-                
-            </Switch>
             
         </div>
 

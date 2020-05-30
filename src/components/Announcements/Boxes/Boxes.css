@@ -1,3 +1,7 @@
+.boxes {
+    margin: 80px 0;
+}
+
 .box {
     margin: 10px;
     border: 1px solid black;

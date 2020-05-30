@@ -1,12 +1,12 @@
 import React from 'react'
 import './Box.css'
 
-const Box = () => {
+const Box = (props) => {
     return (
         <div className="box">
-                <p>We will be closed on the coming Monday due to Govt orders</p>
+                <p>{props.title}</p>
                 <div className="date">
-                    <span>23-May-2020 5pm</span>
+                    <span>{props.date}</span>
                 </div>
             </div>
     )
