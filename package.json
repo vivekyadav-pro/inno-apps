@@ -1,8 +1,8 @@
 {
-  "name": "ig-info-app",
+  "name": "inno-apps",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vivek-351code.github.io/ig-info-app/",
+  "homepage": "https://vivek-351code.github.io/inno-apps/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

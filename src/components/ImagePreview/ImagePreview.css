@@ -1,0 +1,35 @@
+.preview {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;  
+       font-family: inherit;
+}
+
+.preview span {
+       font-size: 13px;
+       position: relative;
+       left: -410px;
+       font-weight: bold;
+       color: rgb(119, 94, 94);
+}
+
+.imagePreview {
+       display: inline-block;
+       border: 1px solid rgba(0, 0, 0, 0);
+       width: 900px;
+}
+
+.preview button {
+       cursor: pointer;
+       outline: none;
+       border: none;
+       background-color: white;
+       font-size: 20px;
+       font-weight: bold;
+       color: rgb(61, 68, 61);
+}
+
+.preview button:hover {
+       color: green;
+}

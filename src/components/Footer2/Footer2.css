@@ -1,0 +1,28 @@
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+    
+}
+
+.category, .social, .account, .company {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 100px;
+    color: rgb(58, 52, 52);
+    
+}
+
+.footer2 h3{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 10px 0;
+    padding: 0;
+}
+.footer2 p {
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 0;
+}
