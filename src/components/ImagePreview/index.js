@@ -18,12 +18,12 @@ const ImagePreview = (props) => {
 
     const imagePreview = props.images.slice(0, items)
                             .map((data, i) => (
-                                    <ImageBox
-                                        images={data.image}
-                                        caption={data.caption}
-                                        artist={data.artist}
-                                        key={i}
-                                         />
+                                <ImageBox
+                                    images={data.image}
+                                    caption={data.caption}
+                                    artist={data.artist}
+                                    key={i}
+                                        />
                             ));
     
     const button = (items < props.images.length) ? <button onClick={reloadingHandler}>Load More...<AiOutlineReload /></button> : null;

@@ -1,5 +1,6 @@
 .header {
     height: 60px;
+    width: 1350px;
     position: relative;
     font-family: inherit;
     top: 0;
@@ -13,7 +14,6 @@
 }
 
 .header ul {
-    font-family: inherit;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -21,14 +21,11 @@
 }
 
 .header ul li {
-    width: auto;
     display: flex;
     font-size: 12px;
-    align-items: center;
     box-sizing: border-box;
     color: black;
     cursor: pointer;
-    text-decoration: none;
     margin: 0 10px;
 }
 
@@ -44,7 +41,6 @@
 .headerContent {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .auth {
