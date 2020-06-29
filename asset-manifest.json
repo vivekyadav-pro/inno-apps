@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/inno-apps/static/css/main.8ae5c488.chunk.css",
+    "main.css": "/inno-apps/static/css/main.9475d739.chunk.css",
     "main.js": "/inno-apps/static/js/main.51b4c995.chunk.js",
     "main.js.map": "/inno-apps/static/js/main.51b4c995.chunk.js.map",
     "runtime-main.js": "/inno-apps/static/js/runtime-main.28b43152.js",
@@ -8,9 +8,9 @@
     "static/js/2.5f68a372.chunk.js": "/inno-apps/static/js/2.5f68a372.chunk.js",
     "static/js/2.5f68a372.chunk.js.map": "/inno-apps/static/js/2.5f68a372.chunk.js.map",
     "index.html": "/inno-apps/index.html",
-    "precache-manifest.7b827592eafdf9b672cb813d2a922d9a.js": "/inno-apps/precache-manifest.7b827592eafdf9b672cb813d2a922d9a.js",
+    "precache-manifest.33683f34175dd17d42d479f6fd89ba85.js": "/inno-apps/precache-manifest.33683f34175dd17d42d479f6fd89ba85.js",
     "service-worker.js": "/inno-apps/service-worker.js",
-    "static/css/main.8ae5c488.chunk.css.map": "/inno-apps/static/css/main.8ae5c488.chunk.css.map",
+    "static/css/main.9475d739.chunk.css.map": "/inno-apps/static/css/main.9475d739.chunk.css.map",
     "static/js/2.5f68a372.chunk.js.LICENSE.txt": "/inno-apps/static/js/2.5f68a372.chunk.js.LICENSE.txt",
     "static/media/img_1.jpg": "/inno-apps/static/media/img_1.19a01e4d.jpg",
     "static/media/img_10.jpg": "/inno-apps/static/media/img_10.6f6eebbc.jpg",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.28b43152.js",
     "static/js/2.5f68a372.chunk.js",
-    "static/css/main.8ae5c488.chunk.css",
+    "static/css/main.9475d739.chunk.css",
     "static/js/main.51b4c995.chunk.js"
   ]
 }
