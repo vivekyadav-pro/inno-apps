@@ -16,7 +16,7 @@ const ImageBox = (props) => {
     return (
         <div className="imageBox">
             <img
-                src={require(`../../../assests/image/${props.images}`)} alt="photo" />
+                src={props.images} alt="photo" />
             <h3>{props.caption}</h3>
             <p>{props.artist}</p>
             <div className={onSelect} onClick={onSelectHandler}>

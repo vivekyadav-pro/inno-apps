@@ -1,6 +1,5 @@
 import React from 'react'
 import { GrFacebookOption, GrLinkedinOption, GrPinterest, GrInstagram } from "react-icons/gr";
-import { AiOutlineInstagram } from "react-icons/ai";
 
 const Social = () => {
     return (

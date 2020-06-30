@@ -3,13 +3,12 @@ import { AiOutlineReload } from "react-icons/ai";
 
 import ImageBox from './ImageBox/index'
 import './ImagePreview.css'
-import imagesData from '../../data/images.json'
 
 const ImagePreview = (props) => {
-    const [items, setItems] = useState(6)
+    const [items, setItems] = useState(15);
 
     const reloadingHandler = () => {
-        setItems(items + 6);
+        setItems(items + 9);
         console.log(items);
     }
 
@@ -19,14 +18,14 @@ const ImagePreview = (props) => {
     const imagePreview = props.images.slice(0, items)
                             .map((data, i) => (
                                 <ImageBox
-                                    images={data.image}
-                                    caption={data.caption}
-                                    artist={data.artist}
+                                    images={data.url}
+                                    caption={data.explanation}
+                                    artist={data.title}
                                     key={i}
                                         />
                             ));
     
-    const button = (items < props.images.length) ? <button onClick={reloadingHandler}>Load More...<AiOutlineReload /></button> : null;
+    const button = (items < props.images.length) ? <button onClick={reloadingHandler}><AiOutlineReload />&nbsp;Load More...</button> : null;
 
     return (
         <div className="preview">

@@ -14,13 +14,20 @@ const Home = (props) => {
 
     const [images, setImages] = useState([]);
 
+    const [imageData, setImageData] = useState([]);
+
     useEffect(() => {
-        const imgData = imagesData.data;
         
-        setImages(imgData);
-        console.log(images);
+        setImages(imagesData.data);
+
+        axios.get('https://api.nasa.gov/planetary/apod?api_key=wD5GizpBycdy6hW8nJM8Hhsp5SW0dwJfeAS9N4vJ&count=100')
+            .then(response => {
+                console.log(response.data);
+                setImageData(response.data);
+            })
+        console.log(imageData);
         
-    }, [images]);
+    }, []);
 
     if (images.image === '') {
         return null;
@@ -31,7 +38,7 @@ const Home = (props) => {
             <Header/>
             <SearchHeader />
             <main>
-                <ImagePreview images={images} />
+                <ImagePreview images={imageData} />
                 <Footer2 />
             </main>
             <Footer /> 
