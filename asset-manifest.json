@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/inno-apps/static/css/main.90fac511.chunk.css",
-    "main.js": "/inno-apps/static/js/main.f40ba7cf.chunk.js",
-    "main.js.map": "/inno-apps/static/js/main.f40ba7cf.chunk.js.map",
+    "main.js": "/inno-apps/static/js/main.64d93e1d.chunk.js",
+    "main.js.map": "/inno-apps/static/js/main.64d93e1d.chunk.js.map",
     "runtime-main.js": "/inno-apps/static/js/runtime-main.28b43152.js",
     "runtime-main.js.map": "/inno-apps/static/js/runtime-main.28b43152.js.map",
     "static/js/2.2a4da1b3.chunk.js": "/inno-apps/static/js/2.2a4da1b3.chunk.js",
     "static/js/2.2a4da1b3.chunk.js.map": "/inno-apps/static/js/2.2a4da1b3.chunk.js.map",
     "index.html": "/inno-apps/index.html",
-    "precache-manifest.19c591e08dacf249c181c72661213025.js": "/inno-apps/precache-manifest.19c591e08dacf249c181c72661213025.js",
+    "precache-manifest.c1763076c84a0d92fb8021ae9a1bdb7d.js": "/inno-apps/precache-manifest.c1763076c84a0d92fb8021ae9a1bdb7d.js",
     "service-worker.js": "/inno-apps/service-worker.js",
     "static/css/main.90fac511.chunk.css.map": "/inno-apps/static/css/main.90fac511.chunk.css.map",
     "static/js/2.2a4da1b3.chunk.js.LICENSE.txt": "/inno-apps/static/js/2.2a4da1b3.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.28b43152.js",
     "static/js/2.2a4da1b3.chunk.js",
     "static/css/main.90fac511.chunk.css",
-    "static/js/main.f40ba7cf.chunk.js"
+    "static/js/main.64d93e1d.chunk.js"
   ]
 }

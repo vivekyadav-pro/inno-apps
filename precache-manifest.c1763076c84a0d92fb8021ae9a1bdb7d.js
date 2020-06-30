@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e41b480763ea7ec7146b26cfb0bf9e2",
+    "revision": "ec7edc81097afc6bdb730b3dfa49060f",
     "url": "/inno-apps/index.html"
   },
   {
-    "revision": "19ed4d3fa11c8f4db42b",
+    "revision": "3ddc28ec46964eea1ac2",
     "url": "/inno-apps/static/css/main.90fac511.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/inno-apps/static/js/2.2a4da1b3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "19ed4d3fa11c8f4db42b",
-    "url": "/inno-apps/static/js/main.f40ba7cf.chunk.js"
+    "revision": "3ddc28ec46964eea1ac2",
+    "url": "/inno-apps/static/js/main.64d93e1d.chunk.js"
   },
   {
     "revision": "34af52628e3f0cae58c0",
