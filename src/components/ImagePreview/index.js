@@ -8,7 +8,7 @@ const ImagePreview = (props) => {
     const [items, setItems] = useState(15);
 
     const reloadingHandler = () => {
-        setItems(items + 9);
+        setItems(items + 12);
         console.log(items);
     }
 
@@ -19,8 +19,8 @@ const ImagePreview = (props) => {
                             .map((data, i) => (
                                 <ImageBox
                                     images={data.url}
-                                    caption={data.explanation}
-                                    artist={data.title}
+                                    title={data.title}
+                                    description={data.explanation}
                                     key={i}
                                         />
                             ));

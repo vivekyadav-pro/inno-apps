@@ -28,10 +28,6 @@ const Home = (props) => {
         console.log(imageData);
         
     }, []);
-
-    if (images.image === '') {
-        return null;
-    }
     
     return (
         <div className="home">

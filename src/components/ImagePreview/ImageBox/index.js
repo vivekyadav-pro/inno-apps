@@ -17,8 +17,8 @@ const ImageBox = (props) => {
         <div className="imageBox">
             <img
                 src={props.images} alt="photo" />
-            <h3>{props.caption}</h3>
-            <p>{props.artist}</p>
+            <h3>{props.title}</h3>
+            <p>{props.description}</p>
             <div className={onSelect} onClick={onSelectHandler}>
                     <TiTick
                         size="30px"
